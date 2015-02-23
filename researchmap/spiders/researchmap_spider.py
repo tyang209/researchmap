@@ -12,6 +12,7 @@ import time
 
 
 class researchmap_spider(CrawlSpider):
+	#testing git hub pull
 	name = "researchmap_spider"
 	def __init__(self,name=None,**kwargs):
 		super(researchmap_spider, self).__init__(name, **kwargs)
